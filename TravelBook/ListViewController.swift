@@ -65,6 +65,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
         
     }
     
+    //perform segueway
     @objc func addButtonClicked(){
         chosenTitle = ""
         performSegue(withIdentifier: "toViewController", sender: nil)
